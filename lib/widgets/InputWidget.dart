@@ -14,6 +14,7 @@ class InputWidget extends StatelessWidget {
             child: new Container(
               margin: new EdgeInsets.symmetric(horizontal: 1.0),
               child: new IconButton(
+                onPressed: (){},
                 icon: new Icon(Icons.face),
                 color: Palette.primaryColor,
               ),
@@ -41,7 +42,7 @@ class InputWidget extends StatelessWidget {
               margin: new EdgeInsets.symmetric(horizontal: 8.0),
               child: new IconButton(
                 icon: new Icon(Icons.send),
-                onPressed: () => {},
+                onPressed: () {},
                 color: Palette.primaryColor,
               ),
             ),
